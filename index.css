@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#background{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: black; /* Black */
+   
+    
+    
+
+}
+
+
+
+#Todo_form{
+    /* align-content: center; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10%;
+    margin-left: 5%;  
+    margin-top: 7%;
+    margin-bottom: 10%;
+    border-radius: 2%;
+    border: 1px solid #ddd;
+    position: absolute;
+    background-color: lightgrey;
+   
+    
+
+   
+    
+    
+}
+/* styling the form name  */
+.form label{
+    font-size: large;
+    font-weight: bolder;
+
+}
+input{
+    width: 100%;
+    height: 5vh;
+    margin-top: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.btn{
+    /* margin-left: 8%; */
+    align-content: center;
+
+
+
+}
+
+#submitBtn{
+    width: 45%;
+    height: 3vh;
+    /* justify-content: space-around; */
+
+}
+
+#removeBtn{
+    width: 45%;
+    height: 3vh;
+    /* justify-content: space-around; */
+
+}
+#markTaskCompleted{
+    width: 30%;
+    height: 3vh;
+    justify-content: space-around;
+
+}
+
+#Todobackground{
+    float: right;
+    flex-direction: row;
+    margin-right: 20%;
+    margin-top: 15%;
+    align-content: center;
+    
+
+
+
+}
+#taskList{
+    color: white;
+    /* list-style: ; */
+    
+    padding-left: 10%;
+
+
+}
+.completed{
+    text-decoration: line-through;
+}
+#title{
+    color: white;
+}
+.header{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 5%;
+}
