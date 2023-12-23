@@ -1,0 +1,1 @@
+This is a to-do app, that helps you keep track of activities you have listed to-do, and helps you strike through each activity once its completed, once all task is completed you can remove all task and ready to fill-in 
