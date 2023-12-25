@@ -98,11 +98,13 @@ input{
     /* list-style: ; */
     
     padding-left: 10%;
+    font-size: larger;
 
 
 }
 .completed{
     text-decoration: line-through;
+    color: green; 
 }
 #title{
     color: white;
